@@ -1,0 +1,201 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+}
+.envio{
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-size: 20px;
+
+}
+.nav-link{
+  color: #ce66ff;
+}
+
+.bg-light {
+  --bs-bg-opacity: 0.1;
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+
+.btn{
+  color:#000;
+  background-color: #fff;
+  border-color: #000;
+    
+}
+
+.btn:hover{
+  background: #ce66ff;
+  color: #ffff;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: 0ms;
+  border-color: #000;
+}
+
+.dropdown-item{
+  color: #ce66ff;
+}
+
+.text-register{
+  color: #ce66ff;
+  font-weight: bold;
+  
+}
+
+.form-label{
+  color: #000;
+  font-family: Roboto, arial, helvetica, sans-serif;
+}
+
+.over_main{
+  position: relative;
+  z-index: 2;
+}
+
+
+#main{
+  min-height: 100hv;
+  position: relative;
+}
+video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.capa{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1c1c1c1d;
+  opacity: 0.5;
+  mix-blend-mode: overlay;  
+ 
+}
+
+.btn-registrar{
+  position: absolute;
+  padding: 10px 30px;
+  margin: 0 15px;
+  color: #000;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  font-size: 20px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.btn-registrar:nth-child(1){
+  filter: hue-rotate(115deg);
+
+}
+.btn-registrar:nth-child(3){
+  filter: hue-rotate(270deg);
+
+}
+.btn-registrar:hover{
+  background: #ce66ff;
+  color: #ffff;
+  font-weight: bold;
+  border-radius: 15px;
+  box-shadow: 0px 0px 50px #ce66ff;
+  transition-delay: 0.2s;
+
+}
+.btn-registrar:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #ce66ff;
+  border-left: 2px solid #ce66ff;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+.btn-registrar:hover:before{
+  width: 100%;
+  height: 100%;
+  transition-delay: 0s;
+}
+.btn-registrar:after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right:  0;
+  width: 10px;
+  height: 10px;
+  border-bottom: 2px solid #ce66ff;
+  border-right: 2px solid #ce66ff;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+}
+.btn-registrar:hover::after{
+  width: 100%;
+  height: 100%;
+  transition-delay: 0s;
+}
+  
+
+.principal{
+  display: grid;
+  grid-template-columns: 1fr 500px  1fr;
+  
+}
+
+.busqueda{
+  color: #000;
+  font-weight: bold;
+}
+
+.btn_Zapato{
+  
+  color:#ce66ff;
+
+}
+
+.btn1{
+  color:#000;
+  background-color: #fff;
+  border-color: #000;
+  padding: 8px;
+  border-radius: 15px;
+  height: 44px;
+  width: 77px;
+    
+}
+
+.btn1:hover{
+  background: #ce66ff;
+  color: #ffff;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: 0ms;
+  border-color: #000;
+}
+
+.footer{
+  position:relative;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+}
+
+.capa
+{
+  position:relative;
+  z-index: -1;
+}
+
